@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(128, 128, 128, 0.205);
+   display:flex;
+   height:15vh;
+}
+
+.navbar-img{
+    margin-left: 2vw;
+}
+
+.navbar-heading{
+    margin-top: 5vh;
+    margin-left: 35vw;
+    /* height :100%; */
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.heading{
+    margin-top: 5vh;
+    margin-left: 20vw;
+    height: 10vh;
+    width: 60vw;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:#337AB7 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pnr{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pnr-container{
+    width: 60vw;
+    border-style: solid;
+    border-color: rgba(0, 0, 255, 0.432);
+    
+}
+.pnr-container-info{
+    height: 5vh;
+    width: 100%;
+    font-weight:bold ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pnr-container-input{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pnr-container-btn{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pnr-container-btn-write{
+    height: 5vh;
+    width: 8vw;
+    background-color: #FB792B;
+    color: white;
+    font-weight:bolder ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pnr-container-btn-write:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+input[type=Number] {
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  #na{
+      
+  }
